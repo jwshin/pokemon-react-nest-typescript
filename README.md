@@ -49,9 +49,9 @@ Prerequisite
 ```
 git clone https://github.com/jwshin/pokemon-react-nest-typescript
 cd pokemon-react-nest-typescript
-npm install # install npm dependencies
-npm run migrate # setup sqlite & schema
-npm run backend # starts backend dev server
+npm install
+npm run migrate
+npm run backend
 ```
 
 at this point, backend server should have started "fetch and summarize remote" task
@@ -61,7 +61,7 @@ After confirming "Backend listing on: http://localhost:3001" is seen in the outp
 
 ```
 cd pokemon-react-nest-typescript
-npm run frontend # starts frontend dev server
+npm run frontend
 ```
 
 visit http://localhost:3000
