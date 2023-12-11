@@ -54,8 +54,8 @@ npm run migrate
 npm run backend
 ```
 
-at this point, backend server should have started "fetch and summarize remote" task
-that will take few moments to retrieve and summarize content from Pokeco.api.
+at this point, backend server should have "Starting fetch and summarize pokeapi.co data ..." task
+that may take a minute to retrieve and summarize content from Pokeco.api.
 
 After confirming "Backend listing on: http://localhost:3001" is seen in the output, run the following in another terminal
 
